@@ -1,58 +1,36 @@
-# ⚡️ TangaWatts – Empowering Rwanda with Digital Energy Access
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**TangaWatts** is a responsive, user-friendly frontend web application designed to simplify electricity access for Rwandan communities. With features for **buying electricity**, **borrowing units**, and **making digital payments**, the platform ensures modern, accessible energy management for all.
+## Getting Started
 
----
-
-## 🌍 Vision
-
-To deliver a seamless and smart digital experience that empowers Rwandan citizens to access electricity faster and more efficiently.
-
----
-
-## ✨ Key Features
-
-- 🔌 **Instant Electricity Purchase** – Buy electricity tokens with a clean and simple interface.
-- 💡 **Borrow Electricity Units** – Request emergency electricity units and track repayment.
-- 💳 **Secure Digital Payments UI** – Integration-ready design for mobile money services (MTN, Airtel).
-- 👤 **User-Friendly Dashboard** – Visualize past usage and transaction history.
-- 🎨 **Dark Mode Support** – Easy on the eyes, day or night.
-- 📱 **Mobile-First Design** – Fully responsive and optimized for all devices.
-
----
-
-## 🧑‍💻 User Roles (Frontend)
-
-| Role         | Description                                               |
-|--------------|-----------------------------------------------------------|
-| 🧍 Citizen/User | Interacts with the UI to buy, borrow, and track electricity |
-| 🏢 Society/Agent | Optional community UI for managing distribution or group access |
-| 🛠️ Admin       | Admin dashboard with system views and user management (UI only)
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**:  Next.js & Typescript
-- **Styling**: Tailwind CSS
-- **Routing**: React Router / Next.js pages
-- **State Management**: React Context API / Zustand / Redux (as needed)
-- **Forms**: React Hook Form + Zod (for validation)
-- **Design**: Mobile-first and accessible UI
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v16+)
-- npm or yarn
-
-### Installation
+First, run the development server:
 
 ```bash
-git clone https://github.com/your-org/icyizerepower.git
-cd icyizerepower
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
