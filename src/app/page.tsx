@@ -41,7 +41,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-black">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white shadow-md">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
